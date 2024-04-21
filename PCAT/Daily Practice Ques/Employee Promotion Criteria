@@ -1,0 +1,21 @@
+//Employee Promotion Criteria:
+
+
+Develop a program that assesses whether an employee is eligible for a promotion based on the following criteria:
+Must have worked for the company for at least 5 years.
+Must have a performance rating of "excellent."
+Must have completed at least one advanced training program.
+Prompt the user to input their years of service, performance rating, and training status, then use complex logical expressions to determine and output whether they are eligible for promotion.
+
+start
+print "enter work experience"
+input experience
+print "enter performance rating"
+input performance_rating
+print "enter  no. of advanced training program attend"
+input training_program 
+if (experience >= 5 && performance_rating == "excellent" &&  training_program >= 1)
+    print "you are eligible for promotion"
+
+else print "you are not eligible for promotion"
+end  
