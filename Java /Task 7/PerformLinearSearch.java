@@ -1,5 +1,5 @@
 package com.linearSearch;
-
+//Search specific element in the array using linear search method
 public class PerformLinearSearch {
 
 	public static void main(String[] args) {
