@@ -2,6 +2,8 @@ package com.BrutForceFunctionTask7;
 
 import java.util.Arrays;
 
+// Sort an array using Brut Force Approach
+
 public class SortArrayUsingBrutForce {
 
 	public static void main(String[] args) {
