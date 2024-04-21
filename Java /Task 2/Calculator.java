@@ -2,6 +2,10 @@ package com.company.wiproPracticeQuestion;
 
 import java.util.Scanner;
 
+
+//Create a program that simulates a simple calculator using command-line arguments to perform and print the result of addition, subtraction, multiplication, and division..
+
+
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
