@@ -1,5 +1,7 @@
 package com.recursionTask6;
 
+// Calculate and return sum of elements in the array
+
 public class Task6 {
 
 	public static void main(String[] args) {
