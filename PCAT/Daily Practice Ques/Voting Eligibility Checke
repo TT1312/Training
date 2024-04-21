@@ -1,0 +1,19 @@
+//Voting Eligibility Checker:
+
+
+   Create a program that determines whether a person is eligible to vote in an election based on the following criteria:
+Age must be 18 or above.
+Must be a citizen of the country.
+Prompt the user to input their age, citizenship status (yes/no), and felony status (yes/no), and then use complex logical expressions to determine and output whether they are eligible to vote.
+
+start
+print "enter age"
+input age
+print "citizenship status: (yes/no)"
+input citizenship_Status
+print "felony status: (yes/no)"
+input felony_Status
+if (age >= 18 && citizenship_Status == "yes" &&  felony_Status == "yes")
+    print "you are eligible for vote"
+else print "you are not eligible for vote"
+end   
