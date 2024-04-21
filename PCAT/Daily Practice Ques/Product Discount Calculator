@@ -1,0 +1,25 @@
+ 
+//Product Discount Calculator:
+
+Write a program that calculates the discount amount for a product based on the following criteria:
+If the product price is over $100 and the customer is a premium member, they get a 20% discount.
+If the product price is over $100 and the customer is not a premium member, they get a 10% discount.
+If the product price is $100 or less, there is no discount.
+Prompt the user to input the product price and their premium membership status, then use complex logical expressions to calculate and output the discount amount.
+
+
+
+
+start
+print "enter product price"
+input product_price
+print "enter premium membership status (yes/no)"
+input membership_status
+ 
+if (product_price > 100 &&  membership_status.equal"yes")
+    print "you are product price is" +  product_price-20%
+
+else if (product_price > 100 &&  membership_status.equal"no")
+ print "you are product price is" + product_price-10%
+else print "you are product price is"+ product_price
+end 
