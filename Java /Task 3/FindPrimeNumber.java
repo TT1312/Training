@@ -1,5 +1,8 @@
 package com.company.wiproPracticeQuestion;
 import java.util.Scanner;
+
+// Write a Java program that reads an integer and prints whether it is a prime number using a for loop and if statements.
+
 public class FindPrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
