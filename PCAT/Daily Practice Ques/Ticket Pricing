@@ -1,0 +1,28 @@
+//Ticket Pricing:
+
+You are designing a ticket pricing program for a movie theater. The program should prompt the user for their age and the type of movie they want to watch (e.g., "regular" or "3D"). 
+Based on the age and movie type, the program should calculate and output the ticket price according to the following rules:
+Regular Movie:
+Age < 18: $8
+Age >= 18: $12
+3D Movie:
+Age < 18: $10
+Age >= 18: $15
+
+
+
+start 
+print enter age
+input age
+print enter type of movie e.g reguler or 3D
+switch(movieType)
+case "regular":
+	if age < 18   print "price of ticket is" + $8
+        else  print "price of ticket is" + $12
+        break
+case "3D":
+        if age < 18 print  "price of ticket is" + $10
+        else print "price of ticket is" + $15
+        break
+default: "enter movieType"
+end
