@@ -1,0 +1,51 @@
+package com.CreateOwnException.EmployeeCode;
+
+public class EmployeeData {
+
+	private int id;
+	private String name;
+	private int salary;
+	
+	EmployeeData(){};
+	
+	EmployeeData(int id, String name, int salary){
+		this.id = id;
+		this.name=name;
+		this.salary=salary;
+	}
+
+    @Override
+	public String toString() {
+		return "EmployeeData [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
+	
+
+
+	
+	
+}
