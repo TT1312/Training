@@ -1,0 +1,23 @@
+//Health Insurance Plan Eligibility:
+
+Design a program that determines whether a person is eligible for a particular health insurance plan based on the following criteria:
+Age must be between 18 and 65.
+Must not have any pre-existing medical conditions.
+Must not have any recent hospitalizations (within the last 6 months).
+Prompt the user to input their age, medical condition status, and hospitalization status, then use complex logical expressions to determine and output whether
+they are eligible for the insurance plan.
+
+
+
+start
+print "enter age"
+input age
+print "have any pre-existing medical conditions (yes/no)"
+input medical_conditions
+print "have any recent hospitalizations within the last 6 months (yes/no)"
+input hospitalizations_status
+
+if (18 <= age <= 65 &&  medical_conditions.equal"no" && hospitalizations_status.equals("no"))
+    print "you are eligible for Health Insurance Plan"
+else  print "you are not eligible for Health Insurance Plan"
+end
