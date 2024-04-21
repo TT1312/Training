@@ -1,0 +1,20 @@
+// Fibonacci Sequence Generator:
+
+		Write a program to generate the Fibonacci sequence up to a specified number of terms. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the 
+sum of the two preceding numbers (0, 1, 1, 2, 3, 5, 8, 13, ...). Prompt the user to enter the number of terms they want to generate and use a loop to calculate and output the sequence.
+
+
+
+ start
+declear nextnum
+print "enter number"
+input number
+first=0
+second=1
+print first + "," + second
+for(int i =2; i<= number; i++)
+nextnum=first+second
+print nextnum
+first=second
+second=nextnum
+end
