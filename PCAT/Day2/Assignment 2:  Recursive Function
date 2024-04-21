@@ -1,0 +1,46 @@
+Assignment 2: 
+Recursive Function and Efficiency Analysis - Write a recursive function pseudocode and calculate the nth Fibonacci number and use Big O notation to analyze its efficiency.
+Compare this with an iterative approach and discuss the pros and cons in terms of space and time complexit Fibonacci.
+
+Recursive Approach:
+
+Start
+Print “enter num”
+Input n
+Call Fibonacci(n)
+Print Fibonacci
+Function Fibonacci(n)
+      If n<=1
+          return n
+     else
+             return Fibonacci(n-1)+ Fibonacci(n-2)
+end
+
+
+
+Iterative Approach:
+
+start
+declear nextnum
+print "enter number"
+input number
+first=0
+second=1
+print first + "," + second
+for(int i =2; i<= number; i++)
+nextnum=first+second
+print nextnum
+first=second
+second=nextnum
+end
+
+
+
+
+Recursive Approach: 
+Pros: easy to understand and readability.
+Cons: poor performance for large values of n, higher space complexity due to recursion 
+
+Iterative Approach: 
+Pros: better performance for large values of n
+Cons: More complex implementation compared to the recursive approach.
