@@ -1,0 +1,42 @@
+Assignment 3:
+Create a document that describes the design of two modular functions: one that returns the factorial of a number, and another that calculates the nth Fibonacci number. 
+Include pseudocode and a brief explanation of how modularity in programming helps with code reuse and organization.
+
+Fibonacci number:
+
+Start
+Print “enter num”
+Input n
+Call fibonacci(n) 
+Print fibonacci
+function fibonacci(n) 
+if n <= 1 
+return n
+ else 
+return fibonacci(n - 1) + fibonacci(n - 2) 
+end
+
+
+
+Factorial Number:
+
+start
+declear n and fact
+call factorial(n)
+print factorial
+
+function factorial(n)
+if n < 1
+return 1
+else
+n*factorial(n-1)
+end
+
+
+
+
+Benefits of modularity in programming:
+1.Code reusability
+2.Increase readability 
+3.Easy to maintain code
+4.Easy to add new functionality without affecting other parts of program
