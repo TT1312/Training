@@ -1,0 +1,46 @@
+Assignment 1: 
+Pseudocode and Flowchart for Sorting Algorithm - Write pseudocode and create a flowchart for a bubble sort algorithm.
+Provide a brief explanation of how the algorithm works and a simple array of integers to demonstrate a dry run of your algorithm.
+
+start
+declear arr[5]
+call bubblesort(arr)
+print arr
+
+function bubblesort(arr)
+for (int i = 0; i < n; i++) {
+            swapped = false;
+            for (int j = 1; j < n-i; j++) {
+                if (arr[j] < arr[j-1]){
+                    temp = arr[j]
+                    arr[j]=  arr[j-1]   
+                     arr[j-1]=temp              
+                    swapped = true
+              
+            if (!swapped)
+                break;
+end loop
+end loop
+end
+
+
+
+
+
+
+
+45  21  78  2  20     size of arr:5
+
+i	   currentelement=arr[j-1]	    j=1	      arr[j]    	arr[j]<currentelement	            j<n-i   	      temp=arr[j]	          arr[j]=arr[j-1]  	       arr[j-1]=temp  
+0	            45                   1        	21	              True	                     true	             21	                      45	                   21
+0	            45                 	2          	78	              False				
+0           	78                	3          	2                	True                       	True	            2                      	78	                    2
+0           	78                	4         	20           	    True                    	 True             	20                     	78                    	20
+1            	21                	1	          45               	False				
+1	            45                	2          	2                	True                      	True             	2	                       45                    	2
+1	            45                	3         	20               	True                      	True	            20                     	45                    	20
+2	            21                 	1          	2               	True                      	True             	2	                      21                     	2
+2            	21                	2          	20              	True	                      True             	20                    	21	                    20
+3           	2                  	1         	20	              False				
+  
+Finally array is sorted : 2   20   21  45   78
