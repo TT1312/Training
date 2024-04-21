@@ -2,6 +2,8 @@ package com.company.wiproPracticeQuestion;
 
 import java.util.Scanner;
 
+//Create a program that declares an array of integers, initializes it with consecutive numbers, and prints the array in reverse order.
+
 public class ReverseArray {
     public static void main(String[] args) {
 
