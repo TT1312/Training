@@ -1,0 +1,24 @@
+Temperature Converter:
+
+		Develop a temperature converter program that converts temperatures between Celsius and Fahrenheit. The program should ask the user to choose the 
+conversion type (Celsius to Fahrenheit or Fahrenheit to Celsius) and then input the temperature value. Use a switch statement to handle the conversion type, 
+and if-else statements to perform the actual conversion.
+
+
+
+start
+declear result
+print "enter temp. conversion type"
+input temp_type
+print "enter temperature value"
+input temp_value
+switch(temp_type)
+case "Celsius to Fahrenheit":
+	result = ( temp_value × 9/5) + 32
+	break
+case " Fahrenheit to Celsius":
+	result = (temp_value − 32) × 5/9
+	break
+default: "Plz enter temp_type"
+print result
+end
