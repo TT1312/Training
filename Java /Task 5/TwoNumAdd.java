@@ -1,5 +1,9 @@
 package com;
 import java.util.*;
+
+// Given an array of integers, write a program that finds if there are two numbers that add up to a specific target. You may assume that each input would have exactly one solution, 
+//and you may not use the same element twice. Optimize the solution for time complexity.
+
 public class TwoNumAdd {
 
 	public static void main(String[] args) {
